@@ -47,7 +47,7 @@
 }
 
 - (id)initWithFile:(NSString *)dbFilePath {
-	if (self = [super init]) {
+	if ((self = [super init])) {
 		[self open:dbFilePath];
 	}
 	

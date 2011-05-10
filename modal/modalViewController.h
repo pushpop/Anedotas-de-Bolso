@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface modalViewController : UIViewController {
-    
 }
+
+
+-(IBAction) abrirAnedota;
+
 
 @end

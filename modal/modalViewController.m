@@ -7,8 +7,18 @@
 //
 
 #import "modalViewController.h"
+#import "anedota.h"
+
 
 @implementation modalViewController
+
+-(IBAction) abrirAnedota{
+    
+    anedota *am = [[anedota alloc] initWithNibName:@"anedota" bundle:nil];
+    am.modalPresentationStyle = UIModalPresentationPageSheet;
+    am.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentModalViewController:am animated:YES];
+}
 
 - (void)dealloc
 {

@@ -11,6 +11,12 @@
 
 @interface Info : UIViewController {
     
+    IBOutlet UIButton *voltar;
+    
 }
+
+@property (nonatomic, retain) IBOutlet UIButton *voltar;
+
+-(IBAction) voltar;
 
 @end
