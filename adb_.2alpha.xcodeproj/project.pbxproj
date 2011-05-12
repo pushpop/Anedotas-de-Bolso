@@ -11,7 +11,6 @@
 		461983E11378AB8E009C2045 /* Info.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461983DF1378AB8E009C2045 /* Info.xib */; };
 		462A390813751ED300571B71 /* sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A390713751ED300571B71 /* sqlite.m */; };
 		462A390D1375207F00571B71 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A390C1375207F00571B71 /* libsqlite3.dylib */; };
-		468976BF1374F217005EB6DD /* fundo_pele in Resources */ = {isa = PBXBuildFile; fileRef = 468976BE1374F217005EB6DD /* fundo_pele */; };
 		468976C9137502EA005EB6DD /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = 468976C8137502EA005EB6DD /* b1.png */; };
 		468976CE13750A36005EB6DD /* trama_footer_whit.png in Resources */ = {isa = PBXBuildFile; fileRef = 468976CD13750A36005EB6DD /* trama_footer_whit.png */; };
 		468976D0137514EE005EB6DD /* trama_footer_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 468976CF137514EE005EB6DD /* trama_footer_normal.png */; };
@@ -33,6 +32,7 @@
 		46A820A11374EB27004CF80C /* anedota.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A8209F1374EB27004CF80C /* anedota.m */; };
 		46A820A21374EB27004CF80C /* anedota.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46A820A01374EB27004CF80C /* anedota.xib */; };
 		46ACCA98137860A0003B9A91 /* anedotas.sql in Resources */ = {isa = PBXBuildFile; fileRef = 46ACCA97137860A0003B9A91 /* anedotas.sql */; };
+		46D5FD121379450900AD9D47 /* fundo_pele.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D5FD111379450900AD9D47 /* fundo_pele.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 		462A390613751ED300571B71 /* sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite.h; sourceTree = "<group>"; };
 		462A390713751ED300571B71 /* sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sqlite.m; sourceTree = "<group>"; };
 		462A390C1375207F00571B71 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		468976BE1374F217005EB6DD /* fundo_pele */ = {isa = PBXFileReference; lastKnownFileType = file; name = fundo_pele; path = Resources/fundo_pele; sourceTree = SOURCE_ROOT; };
 		468976C8137502EA005EB6DD /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
 		468976CD13750A36005EB6DD /* trama_footer_whit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trama_footer_whit.png; path = Resources/trama_footer_whit.png; sourceTree = SOURCE_ROOT; };
 		468976CF137514EE005EB6DD /* trama_footer_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trama_footer_normal.png; path = Resources/trama_footer_normal.png; sourceTree = SOURCE_ROOT; };
@@ -80,6 +79,7 @@
 		46A8209F1374EB27004CF80C /* anedota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = anedota.m; path = ../anedota.m; sourceTree = "<group>"; };
 		46A820A01374EB27004CF80C /* anedota.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = anedota.xib; path = ../anedota.xib; sourceTree = "<group>"; };
 		46ACCA97137860A0003B9A91 /* anedotas.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = anedotas.sql; sourceTree = "<group>"; };
+		46D5FD111379450900AD9D47 /* fundo_pele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fundo_pele.png; path = Resources/fundo_pele.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 				468976CF137514EE005EB6DD /* trama_footer_normal.png */,
 				468976CD13750A36005EB6DD /* trama_footer_whit.png */,
 				468976C8137502EA005EB6DD /* b1.png */,
-				468976BE1374F217005EB6DD /* fundo_pele */,
+				46D5FD111379450900AD9D47 /* fundo_pele.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -299,12 +299,12 @@
 				46A820791374EA5E004CF80C /* MainWindow.xib in Resources */,
 				46A8207F1374EA5E004CF80C /* modalViewController.xib in Resources */,
 				46A820A21374EB27004CF80C /* anedota.xib in Resources */,
-				468976BF1374F217005EB6DD /* fundo_pele in Resources */,
 				468976C9137502EA005EB6DD /* b1.png in Resources */,
 				468976CE13750A36005EB6DD /* trama_footer_whit.png in Resources */,
 				468976D0137514EE005EB6DD /* trama_footer_normal.png in Resources */,
 				46ACCA98137860A0003B9A91 /* anedotas.sql in Resources */,
 				461983E11378AB8E009C2045 /* Info.xib in Resources */,
+				46D5FD121379450900AD9D47 /* fundo_pele.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

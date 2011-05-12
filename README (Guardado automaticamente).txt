@@ -1,0 +1,1 @@
+Este código é livre como cerveja grátis. Saca, duplica, altera, mantém as alterações para ti ou partilha-as com o Mundo. Eu não me importo. Se quiseres contribuir de volta, sabes o que fazer.
